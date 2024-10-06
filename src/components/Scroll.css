@@ -1,0 +1,15 @@
+/* HorizontalScrollbar.css */
+
+.react-horizontal-scrolling-menu--inner-wrapper {
+      display: flex;
+      overflow-x: auto;
+      scrollbar-width: none; /* Hide scrollbar in Firefox */
+      }
+
+      .react-horizontal-scrolling-menu--scroll-container {
+            display: flex;
+      }
+
+      .react-horizontal-scrolling-menu--inner-wrapper::-webkit-scrollbar {
+            display: none; /* Hide scrollbar in Chrome, Safari and Edge */
+      }
